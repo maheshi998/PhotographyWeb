@@ -27,10 +27,24 @@ h2 {
 .main-img {
   width: 40%;
   margin: 20px 0;
+ 
 }
 
 .view-us, .contact-us, .form-section{
   height: 450px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.contact-container div {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 300px;
+  margin: 10px;
 }
 
 input, textarea {
