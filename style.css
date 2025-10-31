@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+}
+
+.top-bar {
+  background-color: #3b3a2f;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+
+.main, .contact-section {
+  text-align: center;
+  padding: 5px;
+}
+
+h2 {
+  color: coral;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.main-img {
+  width: 40%;
+  margin: 20px 0;
+}
+
+.view-us, .contact-us, .form-section{
+  height: 450px;
+}
+
+input, textarea {
+  width: 90%;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #3b3a2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-menu {
+  background-color: beige;
+  padding: 10px;
+  margin-top: 30px;
+  text-align:center;
+}
+
+.footer-menu a {
+  color: #0096FF;
+  text-decoration: none;
+  font-family: Georgia;
+  margin: 0 10px;
+}
