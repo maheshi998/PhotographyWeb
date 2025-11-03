@@ -1,11 +1,14 @@
-html, body {
+body {
   font-family: Arial, sans-serif;
   background-image: url("bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #ffffff;
   margin: 0px;
   height: 100%;
+  display: flex; 
+  flex-direction: column; 
 }
 
 .top-bar {
@@ -15,7 +18,7 @@ html, body {
   padding: 3px;
 }
 
-.main, .contact-section {
+.contact-section {
   text-align: center;
   padding: 5px;
 }
@@ -23,12 +26,6 @@ html, body {
 h2 {
   color: coral;
   font-family: "Times New Roman", sans-serif;
-}
-
-.main-img {
-  width: 40%;
-  margin: 20px 0;
- 
 }
 
 .view-us, .contact-us, .form-section{
