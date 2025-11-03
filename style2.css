@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #ffffff;
   margin: 0px;
   height: 100%;
   display: flex; 
@@ -21,6 +20,7 @@ body {
 .contact-section {
   text-align: center;
   padding: 5px;
+  flex:1;
 }
 
 h2 {
@@ -63,8 +63,6 @@ button {
 .footer-menu {
   background-color: beige;
   padding: 10px;
-  margin-top: 30px;
-  bottom: 0;
   text-align:center;
 }
 
